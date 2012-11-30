@@ -1,5 +1,6 @@
 # get system type
 UNAME = $(shell uname)
+TOP = $(CURDIR)
 
 # executable paths
 FFMPEG = ffmpeg
@@ -18,7 +19,7 @@ FINALS = finals
 NKSCRIPTS = nuke-finalscripts
 
 # Preferences
-FILETYPE = tiff
+FILETYPE = tif
 FPS = 30
 
 # Input enumeration
@@ -56,6 +57,11 @@ printvars:
 	@echo $(RAWVIDEO)
 	@echo $(FRAMEDIRS)
 	@echo $(NUKE)
+	@echo $(TOP)
+
+$(FINALS)/%.mov: $(COMPOSITEFRAMES)/%
+	$(eval BASENAME = $(patsubst $(COMPOSITEFRAMES)/%, %, $<))
+	cd $<; $(DPAFFMPEG) -base $(BASENAME) -output $(TOP)/$@
 
 $(COMPOSITEFRAMES)/%: $(NKSCRIPTS)/%.nk
 	@mkdir -p $@
