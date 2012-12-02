@@ -1,0 +1,83 @@
+#! /Applications/Nuke6.3v4/Nuke6.3v4.app/Contents/MacOS/Nuke6.3v4 -nx
+version 6.3 v4
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="22" w="1680" h="945" screen="0">
+        <splitter orientation="1">
+            <split size="1062"/>
+            <splitter orientation="1">
+                <split size="40"/>
+                <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+                <split size="1018"/>
+                <splitter orientation="2">
+                    <split size="460"/>
+                    <dock id="" activePageId="Viewer.1">
+                        <page id="Viewer.1"/>
+                    </dock>
+                    <split size="459"/>
+                    <dock id="" activePageId="DAG.1">
+                        <page id="DAG.1"/>
+                        <page id="Curve Editor.1"/>
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="614"/>
+            <dock id="" activePageId="Properties.1">
+                <page id="Properties.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name /DPA/projects/2012EveryoneDies/nuke-finalscripts/Scene28.nk
+ frame 28
+ last_frame 240
+ lock_range true
+ fps 30
+ format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+}
+Read {
+ inputs 0
+ file /DPA/projects/2012EveryoneDies/frames/Scene28Take2/Scene28Take2.#######.tiff
+ format "1920 1080 0 0 1920 1080 1 HD"
+ last 240
+ origlast 240
+ origset true
+ name Read1
+ xpos -111
+ ypos -173
+}
+CameraShake2 {
+ name CameraShake2_1
+ label "\[value amplitude] px at \[value frequency]"
+ xpos -111
+ ypos -32
+ amplitude {{curve x59 0 40 x66 40 x67 0}}
+ cs_center {{"\[value input.width 0]/2"} {"\[value input.height 0]/2"}}
+}
+set N146ca8c0 [stack 0]
+Viewer {
+ downrez 8
+ input_process false
+ name Viewer1
+ xpos -350
+ ypos -27
+}
+push $N146ca8c0
+Write {
+ file /DPA/projects/2012EveryoneDies/composite-frames/Scene28/Scene28.%04d.tif
+ file_type tiff
+ datatype "16 bit"
+ checkHashOnRead false
+ version 2
+ name Write1
+ xpos -111
+ ypos 51
+}
