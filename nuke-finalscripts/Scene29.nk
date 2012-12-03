@@ -2,7 +2,7 @@
 version 6.3 v4
 define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 <layout version="1.0">
-    <window x="0" y="22" w="1680" h="952" screen="0">
+    <window x="0" y="22" w="1680" h="949" screen="0">
         <splitter orientation="1">
             <split size="1062"/>
             <splitter orientation="1">
@@ -13,9 +13,14 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
                 <split size="1018"/>
                 <splitter orientation="2">
                     <split size="463"/>
-                    <dock id="" activePageId="Viewer.1">
-                        <page id="Viewer.1"/>
-                    </dock>
+                    <splitter orientation="1">
+                        <split size="834"/>
+                        <dock id=""/>
+                        <split size="834"/>
+                        <dock id="" activePageId="Properties.1">
+                            <page id="Properties.1"/>
+                        </dock>
+                    </splitter>
                     <split size="463"/>
                     <dock id="" activePageId="DAG.1">
                         <page id="DAG.1"/>
@@ -25,8 +30,14 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
                 </splitter>
             </splitter>
             <split size="614"/>
-            <dock id="" activePageId="Properties.1">
-                <page id="Properties.1"/>
+            <dock id=""/>
+        </splitter>
+    </window>
+    <window x="1749" y="293" w="1680" h="1050" screen="1">
+        <splitter orientation="2">
+            <split size="1034"/>
+            <dock id="" activePageId="Viewer.1">
+                <page id="Viewer.1"/>
             </dock>
         </splitter>
     </window>
@@ -35,7 +46,7 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 Root {
  inputs 0
  name /DPA/projects/2012EveryoneDies/nuke-finalscripts/Scene29.nk
- frame 109
+ frame 218
  last_frame 220
  lock_range true
  format "1920 1080 0 0 1920 1080 1 HD"
@@ -105,7 +116,7 @@ Transform {
  xpos 223
  ypos -714
 }
-set C51e4940 [stack 0]
+set C1721f420 [stack 0]
 RotoPaint {
  inputs 0
  output alpha
@@ -202,7 +213,7 @@ Merge2 {
  xpos 223
  ypos -660
 }
-set N20656700 [stack 0]
+set N1728d190 [stack 0]
 ShuffleCopy {
  inputs 2
  red red
@@ -241,7 +252,7 @@ Retime {
  xpos -171
  ypos -517
 }
-set N20668f70 [stack 0]
+set N172ad290 [stack 0]
 Merge2 {
  inputs 2
  name Merge2
@@ -471,7 +482,7 @@ ColorCorrect {
  xpos -505
  ypos -414
 }
-push $N20668f70
+push $N172ad290
 Merge2 {
  inputs 2
  name Merge5
@@ -488,7 +499,7 @@ CameraShake2 {
  seed 10483
  cs_center {{"\[value input.width 0]/2" i} {"\[value input.height 0]/2" i}}
 }
-clone $C51e4940 {
+clone $C1721f420 {
  xpos -171
  ypos -257
  selected false
@@ -499,8 +510,8 @@ Merge2 {
  xpos -171
  ypos -124
 }
-set N20908cb0 [stack 0]
-push $N20656700
+set N19cc2680 [stack 0]
+push $N1728d190
 Dot {
  name Dot2
  xpos 132
@@ -528,7 +539,7 @@ Dot {
  xpos -266
  ypos -64
 }
-push $N20908cb0
+push $N19cc2680
 ShuffleCopy {
  inputs 2
  name ShuffleCopy4
@@ -537,25 +548,46 @@ ShuffleCopy {
 }
 Read {
  inputs 0
- file /DPA/projects/2012EveryoneDies/photos/elevator-shaft-2.png
+ file /DPA/projects/2012EveryoneDies/photos/elevator-shaft-5-perspective-match.png
  format "1920 1080 0 0 1920 1080 1 HD"
  origset true
  name Read5
- xpos 390
+ xpos 634
  ypos -34
 }
 Blur {
- size 7.8
+ size 5
  name Blur2
- xpos 240
+ xpos 476
  ypos -10
 }
+ColorCorrect {
+ saturation 0
+ gamma 1.05
+ gain 0.94
+ name ColorCorrect4
+ xpos 313
+ ypos -5
+}
 Transform {
- translate {-65 5}
+ translate {126 1}
+ scale {1 1}
  center {960 540}
  name Transform3
- xpos 18
+ xpos 214
  ypos -5
+}
+ColorCorrect {
+ gain 0.39
+ name ColorCorrect3
+ xpos 104
+ ypos -5
+}
+Dither {
+ amount 0.0084
+ name Dither2
+ xpos -20
+ ypos -10
 }
 Merge2 {
  inputs 2
@@ -563,7 +595,15 @@ Merge2 {
  xpos -171
  ypos -5
 }
-set N20945330 [stack 0]
+Dither {
+ amount 0.005
+ name Dither1
+ selected true
+ xpos -171
+ ypos 71
+ disable true
+}
+set N8397910 [stack 0]
 Write {
  file /DPA/projects/2012EveryoneDies/composite-frames/Scene29/Scene29.%04d.tif
  file_type tiff
@@ -573,9 +613,9 @@ Write {
  xpos -171
  ypos 213
 }
-push $N20945330
+push $N8397910
 Viewer {
- frame 109
+ frame 218
  input_process false
  name Viewer2
  xpos -622

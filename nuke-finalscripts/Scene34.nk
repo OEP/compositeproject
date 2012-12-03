@@ -1,0 +1,366 @@
+#! /Applications/Nuke6.3v4/Nuke6.3v4.app/Contents/MacOS/Nuke6.3v4 -nx
+version 6.3 v4
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="22" w="1680" h="952" screen="0">
+        <splitter orientation="1">
+            <split size="1062"/>
+            <splitter orientation="1">
+                <split size="40"/>
+                <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+                <split size="1018"/>
+                <splitter orientation="2">
+                    <split size="463"/>
+                    <dock id="" activePageId="Viewer.1">
+                        <page id="Viewer.1"/>
+                    </dock>
+                    <split size="463"/>
+                    <dock id="" activePageId="DAG.1">
+                        <page id="DAG.1"/>
+                        <page id="Curve Editor.1"/>
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="614"/>
+            <dock id="" activePageId="Properties.1">
+                <page id="Properties.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name /DPA/projects/2012EveryoneDies/nuke-finalscripts/Scene34.nk
+ frame 297
+ last_frame 380
+ lock_range true
+ fps 30
+ format "1920 1080 0 0 1920 1080 1 HD"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+}
+Read {
+ inputs 0
+ file /DPA/projects/2012EveryoneDies/frames/Scene34Take1/Scene34Take1.#######.png
+ format "1920 1080 0 0 1920 1080 1 HD"
+ last 511
+ origlast 511
+ origset true
+ name Read1
+ xpos -468
+ ypos -187
+}
+set N1b713ab0 [stack 0]
+Dot {
+ name Dot1
+ xpos -627
+ ypos -155
+}
+Retime {
+ input.first 10
+ input.first_lock true
+ input.last 265
+ input.last_lock true
+ output.first_lock true
+ output.last 256
+ before bounce
+ after bounce
+ name CleanPlateRetime1
+ xpos -661
+ ypos -41
+}
+RotoPaint {
+ inputs 0
+ output alpha
+ curves {AnimTree: "" {
+ Version: 1.2
+ Flag: 0
+ RootNode: 1
+ Node: {
+  NodeName: "Root" {
+   Flag: 512
+   NodeType: 1
+   Transform: 0 0 S 0 0 S 0 0 S 0 0 S 0 1 S 0 1 S 0 0 S 0 1024 S 0 778 
+   NumOfAttributes: 11
+   "vis" S 0 1 "opc" S 0 1 "mbo" S 0 1 "mb" S 0 1 "mbs" S 0 0.5 "fo" S 0 1 "fx" S 0 0 "fy" S 0 0 "ff" S 0 1 "ft" S 0 0 "pt" S 0 0 
+  }
+  NumOfChildren: 1
+  Node: {
+   NodeName: "Bezier1" {
+    Flag: 576
+    NodeType: 3
+    CurveGroup: "" {
+     Transform: 0 0 S 1 337 0 S 1 337 0 S 1 337 0 S 1 337 1 S 1 337 1 S 1 337 0 S 1 337 437.5 S 1 337 393.75 
+     Flag: 0
+     NumOfCubicCurves: 2
+     CubicCurve: "" {
+      Type: 0 Flag: 8192 Dim: 2
+      NumOfPoints: 18
+      0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 1162 0 1 -2.17949 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 1158 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 S 1 337 36 S 1 337 282 0 0 S 1 337 1208 S 1 337 228 0 0 S 1 337 -13.5276 S 1 337 -105.967 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 56.7 0 1 -0.46197 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 57.82 0 1 1.89034 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 1067.5 0 1 0.279503 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 75.5 0 1 -9.81709 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -28.2151 0 1 0.0752016 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -28.7722 0 1 -0.30773 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 1078 0 1 0.0512821 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -34 0 1 -9.12821 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -280 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -345 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -240 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 1145 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 
+     }
+     CubicCurve: "" {
+      Type: 0 Flag: 8192 Dim: 2
+      NumOfPoints: 18
+      0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 S 1 337 36 S 1 337 282 0 0 S 1 337 0 S 1 337 0 0 0 S 1 337 -13.5276 S 1 337 -105.967 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 56.7 0 1 -0.46197 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 57.82 0 1 1.89034 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -28.2151 0 1 0.0752016 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 -28.7722 0 1 -0.30773 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 L 0 4096 0.5 2 0 0 "" 0 1 "" 337 0 0 1 0 1 256 0 0 
+     }
+     NumOfAttributes: 44
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 0 "go" S 0 0 "bo" S 0 0 "ao" S 0 0 "opc" S 0 1 "bm" S 0 0 "inv" S 0 0 "mbo" S 0 0 "mb" S 0 1 "mbs" S 0 0.5 "mbsot" S 0 0 "mbso" S 0 0 "fo" S 0 1 "fx" S 0 0 "fy" S 0 0 "ff" S 0 1 "ft" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 1024 "spy" S 0 778 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "nv" S 0 1 "view1" S 0 1 "ltn" S 0 337 "ltm" S 0 337 "ltt" S 0 0 "tt" S 0 4 "pt" S 0 0 
+    }
+   }
+   NumOfChildren: 0
+  }
+ }
+}
+}
+ toolbox {addPoints {
+  { selectAll ssx 1 ssy 1 sf 1 }
+  { selectCurves ssx 1 ssy 1 sf 1 tt 1 }
+  { selectPoints ssx 1 ssy 1 sf 1 tt 2 }
+  { selectFeatherPoints ssx 1 ssy 1 sf 1 tt 3 }
+  { createBezier ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBSpline ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle ssx 1 ssy 1 sf 1 sb 1 }
+  { addPoints ssx 1 ssy 1 sf 1 tt 8 }
+  { removePoints ssx 1 ssy 1 sf 1 tt 9 }
+  { cuspPoints ssx 1 ssy 1 sf 1 tt 10 }
+  { curvePoints ssx 1 ssy 1 sf 1 tt 11 }
+  { removeFeather ssx 1 ssy 1 sf 1 tt 12 }
+  { closeCurve ssx 1 ssy 1 sf 1 tt 13 }
+  { brush ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_lifetime_type all
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {320 240}
+ colorOverlay 0
+ lifetime_type "all frames"
+ lifetime_start 337
+ lifetime_end 337
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ createNewTrack {{-1} "-1\t(none)\t-1" "1000\tNew Track Layer\t1000"}
+ name RotoPaint1
+ xpos -331
+ ypos -156
+}
+Blur {
+ size 39
+ name Blur1
+ xpos -331
+ ypos -109
+}
+Dot {
+ name Dot2
+ xpos -297
+ ypos -41
+}
+push $N1b713ab0
+Retime {
+ input.first 50
+ input.first_lock true
+ input.last 511
+ output.first_lock true
+ output.last 462
+ name Retime2
+ xpos -468
+ ypos -87
+}
+ShuffleCopy {
+ inputs 2
+ name ShuffleCopy1
+ xpos -468
+ ypos -44
+}
+Premult {
+ name Premult1
+ xpos -468
+ ypos 20
+}
+ColorCorrect {
+ gain 0.69
+ name ColorCorrect1
+ xpos -469
+ ypos 85
+}
+Dot {
+ name Dot5
+ xpos -435
+ ypos 248
+}
+RotoPaint {
+ inputs 0
+ output alpha
+ curves {AnimTree: "" {
+ Version: 1.2
+ Flag: 0
+ RootNode: 1
+ Node: {
+  NodeName: "Root" {
+   Flag: 512
+   NodeType: 1
+   Transform: 0 0 S 0 0 S 0 0 S 0 0 S 0 1 S 0 1 S 0 0 S 0 1024 S 0 778 
+   NumOfAttributes: 11
+   "vis" S 0 1 "opc" S 0 1 "mbo" S 0 1 "mb" S 0 1 "mbs" S 0 0.5 "fo" S 0 1 "fx" S 0 0 "fy" S 0 0 "ff" S 0 1 "ft" S 0 0 "pt" S 0 0 
+  }
+  NumOfChildren: 1
+  Node: {
+   NodeName: "Bezier1" {
+    Flag: 576
+    NodeType: 3
+    CurveGroup: "" {
+     Transform: 0 0 S 1 376 0 S 1 376 0 S 1 376 0 S 1 376 1 S 1 376 1 S 1 376 0 S 1 376 1327.75 S 1 376 508.5 
+     Flag: 0
+     NumOfCubicCurves: 2
+     CubicCurve: "" {
+      Type: 0 Flag: 8192 Dim: 2
+      NumOfPoints: 12
+      0 S 1 376 0 S 1 376 0 0 0 S 1 376 1232 S 1 376 1088 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 1244 S 1 376 -82 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 1431 S 1 376 -53 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 1404 S 1 376 1089 0 0 S 1 376 0 S 1 376 0 0 
+     }
+     CubicCurve: "" {
+      Type: 0 Flag: 8192 Dim: 2
+      NumOfPoints: 12
+      0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 0 S 1 376 0 S 1 376 0 0 
+     }
+     NumOfAttributes: 44
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 0 "go" S 0 0 "bo" S 0 0 "ao" S 0 0 "opc" S 0 1 "bm" S 0 0 "inv" S 0 0 "mbo" S 0 0 "mb" S 0 1 "mbs" S 0 0.5 "mbsot" S 0 0 "mbso" S 0 0 "fo" S 0 1 "fx" S 0 0 "fy" S 0 0 "ff" S 0 1 "ft" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 1024 "spy" S 0 778 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "nv" S 0 1 "view1" S 0 1 "ltn" S 0 376 "ltm" S 0 376 "ltt" S 0 0 "tt" S 0 4 "pt" S 0 0 
+    }
+   }
+   NumOfChildren: 0
+  }
+ }
+}
+}
+ toolbox {selectAll {
+  { selectAll ssx 1 ssy 1 sf 1 }
+  { createBezier ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBSpline ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle ssx 1 ssy 1 sf 1 sb 1 }
+  { brush ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_lifetime_type all
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {320 240}
+ colorOverlay 0
+ lifetime_type "all frames"
+ lifetime_start 376
+ lifetime_end 376
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ createNewTrack {{-1} "-1\t(none)\t-1" "1000\tNew Track Layer\t1000"}
+ name RotoPaint2
+ xpos -5
+ ypos -156
+}
+Blur {
+ size 4.4
+ name Blur2
+ xpos -5
+ ypos -109
+}
+Dot {
+ name Dot3
+ xpos 29
+ ypos -61
+}
+Read {
+ inputs 0
+ file /DPA/projects/2012EveryoneDies/frames/Scene34Take3/Scene34Take3.#######.png
+ format "1920 1080 0 0 1920 1080 1 HD"
+ last 435
+ origlast 435
+ origset true
+ name Read3
+ xpos -135
+ ypos -188
+}
+ShuffleCopy {
+ inputs 2
+ name ShuffleCopy2
+ xpos -135
+ ypos -64
+}
+Premult {
+ name Premult2
+ xpos -135
+ ypos 9
+}
+Read {
+ inputs 0
+ file /DPA/projects/2012EveryoneDies/frames/Scene34Take2/Scene34Take2.#######.png
+ format "1920 1080 0 0 1920 1080 1 HD"
+ last 511
+ origlast 511
+ origset true
+ name Read2
+ xpos 117
+ ypos -190
+}
+Retime {
+ input.first 85
+ input.first_lock true
+ input.last 511
+ output.first_lock true
+ output.last 427
+ name Retime1
+ xpos 117
+ ypos -52
+}
+Dot {
+ name Dot4
+ xpos 151
+ ypos 146
+}
+Merge2 {
+ inputs 2
+ name Merge1
+ xpos -135
+ ypos 143
+}
+Merge2 {
+ inputs 2
+ name Merge2
+ xpos -135
+ ypos 245
+}
+set N1b7bb070 [stack 0]
+Viewer {
+ inputs 2
+ frame 297
+ input_process false
+ name Viewer1
+ xpos -576
+ ypos 246
+}
+push $N1b7bb070
+Write {
+ file /DPA/projects/2012EveryoneDies/composite-frames/Scene34/Scene34.%04d.tif
+ file_type tiff
+ datatype "16 bit"
+ checkHashOnRead false
+ name Write1
+ xpos -135
+ ypos 341
+}
