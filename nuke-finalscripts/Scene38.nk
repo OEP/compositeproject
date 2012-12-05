@@ -2,7 +2,7 @@
 version 6.3 v4
 define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 <layout version="1.0">
-    <window x="0" y="22" w="1680" h="947" screen="0">
+    <window x="0" y="22" w="1680" h="949" screen="0">
         <splitter orientation="1">
             <split size="1062"/>
             <splitter orientation="1">
@@ -12,11 +12,11 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
                 </dock>
                 <split size="1018"/>
                 <splitter orientation="2">
-                    <split size="461"/>
+                    <split size="462"/>
                     <dock id="" activePageId="Viewer.1">
                         <page id="Viewer.1"/>
                     </dock>
-                    <split size="460"/>
+                    <split size="461"/>
                     <dock id="" activePageId="DAG.1">
                         <page id="DAG.1"/>
                         <page id="Curve Editor.1"/>
@@ -35,7 +35,7 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 Root {
  inputs 0
  name /home/pkilgo/everyoneDies/nuke-finalscripts/Scene38.nk
- frame 173
+ frame 300
  last_frame 300
  lock_range true
  format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
@@ -52,12 +52,11 @@ Read {
  origlast 174
  origset true
  name Read1
- selected true
  xpos -440
  ypos -164
 }
 ColorCorrect {
- gain {{curve x43 1 x100 1.2} {curve x43 1 x100 1.2} {curve x43 1 x100 1.2} {curve x100 1.14}}
+ gain {{curve i x43 1 x100 1.2 x200 1.2 x240 1.4 x250 1.4 x272 1.3 x293 1.2} {curve i x43 1 x100 1.2 x200 1.2 x240 1.44 x250 1.44 x272 1.3 x293 1.2} {curve i x43 1 x100 1.2 x200 1.2 x240 1.41 x250 1.41 x272 1.3 x293 1.2} {curve i x100 1.14 x200 1.14 x250 1.14}}
  name ColorCorrect1
  xpos -440
  ypos -66
@@ -162,6 +161,12 @@ Premult {
  xpos -440
  ypos 50
 }
+Defocus {
+ defocus {{curve x200 0 x240 1 x272 1 x296 0}}
+ name Defocus1
+ xpos -314
+ ypos 45
+}
 Read {
  inputs 0
  file /DPA/projects/2012EveryoneDies/frames/Scene38Take4/Scene38Take4.#######.tif
@@ -199,7 +204,7 @@ Write {
  ypos 99
 }
 Viewer {
- frame 173
+ frame 300
  input_process false
  name Viewer1
  xpos -149
