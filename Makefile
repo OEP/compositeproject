@@ -19,7 +19,7 @@ FINALS = finals
 NKSCRIPTS = nuke-finalscripts
 
 # Preferences
-FILETYPE = png
+FILETYPE = tif
 FPS = 30
 
 # Input enumeration
