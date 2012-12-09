@@ -1,0 +1,2725 @@
+#! /home/weizih/Nuke6.3v8/Nuke6.3 -nx
+version 6.3 v8
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="24" w="1680" h="1002" screen="0">
+        <splitter orientation="1">
+            <split size="1060"/>
+            <splitter orientation="1">
+                <split size="40"/>
+                <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+                <split size="1016"/>
+                <splitter orientation="2">
+                    <split size="946"/>
+                    <dock id="" activePageId="DAG.1">
+                        <page id="DAG.1"/>
+                        <page id="Curve Editor.1"/>
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="614"/>
+            <dock id="" activePageId="Properties.1">
+                <page id="Properties.1"/>
+            </dock>
+        </splitter>
+    </window>
+    <window x="2100" y="336" w="641" h="533" screen="1">
+        <splitter orientation="2">
+            <split size="501"/>
+            <dock id="" activePageId="Viewer.1">
+                <page id="Viewer.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name /DPA/projects/2012EveryoneDies/nuke-finalscripts/Scene23.nk
+ frame 445
+ last_frame 466
+ lock_range true
+ format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+}
+RotoPaint {
+ inputs 0
+ curves {AnimTree: "" {
+ Version: 1.2
+ Flag: 0
+ RootNode: 1
+ Node: {
+  NodeName: "Root" {
+   Flag: 512
+   NodeType: 1
+   Transform: 0 0 S 0 0 S 0 0 S 0 0 S 0 1 S 0 1 S 0 0 S 0 960 S 0 540 
+   NumOfAttributes: 11
+   "vis" S 0 1 "opc" S 0 1 "mbo" S 0 1 "mb" S 0 1 "mbs" S 0 0.5 "fo" S 0 1 "fx" S 0 0 "fy" S 0 0 "ff" S 0 1 "ft" S 0 0 "pt" S 0 0 
+  }
+  NumOfChildren: 173
+  Node: {
+   NodeName: "Brush173" {
+    Flag: 576
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 219 0 S 1 219 0 S 1 219 0 S 1 219 1 S 1 219 1 S 1 219 0 S 1 219 692.1 S 1 219 4.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 219 692.1 S 1 219 4.6 S 1 219 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 219 "ltm" S 0 219 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush172" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 218 0 S 1 218 0 S 1 218 0 S 1 218 1 S 1 218 1 S 1 218 0 S 1 218 661 S 1 218 6.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 218 661 S 1 218 6.1 S 1 218 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 218 "ltm" S 0 218 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush171" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 218 0 S 1 218 0 S 1 218 0 S 1 218 1 S 1 218 1 S 1 218 0 S 1 218 665.4 S 1 218 10.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 218 665.4 S 1 218 10.4 S 1 218 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 218 "ltm" S 0 218 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush170" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 218 0 S 1 218 0 S 1 218 0 S 1 218 1 S 1 218 1 S 1 218 0 S 1 218 666 S 1 218 5.5 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 218 666 S 1 218 5.5 S 1 218 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 218 "ltm" S 0 218 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush169" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 218 0 S 1 218 0 S 1 218 0 S 1 218 1 S 1 218 1 S 1 218 0 S 1 218 669.4 S 1 218 3.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 218 669.4 S 1 218 3.7 S 1 218 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 218 "ltm" S 0 218 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush168" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 217 0 S 1 217 0 S 1 217 0 S 1 217 1 S 1 217 1 S 1 217 0 S 1 217 662.1 S 1 217 8.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 217 662.1 S 1 217 8.8 S 1 217 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 217 "ltm" S 0 217 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush167" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 217 0 S 1 217 0 S 1 217 0 S 1 217 1 S 1 217 1 S 1 217 0 S 1 217 644.9 S 1 217 10.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 217 644.9 S 1 217 10.1 S 1 217 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 217 "ltm" S 0 217 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush166" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 217 0 S 1 217 0 S 1 217 0 S 1 217 1 S 1 217 1 S 1 217 0 S 1 217 649.3 S 1 217 15.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 217 649.3 S 1 217 15.2 S 1 217 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 217 "ltm" S 0 217 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush165" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 217 0 S 1 217 0 S 1 217 0 S 1 217 1 S 1 217 1 S 1 217 0 S 1 217 648.4 S 1 217 11.5 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 217 648.4 S 1 217 11.5 S 1 217 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 217 "ltm" S 0 217 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush164" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 217 0 S 1 217 0 S 1 217 0 S 1 217 1 S 1 217 1 S 1 217 0 S 1 217 653.6 S 1 217 11 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 217 653.6 S 1 217 11 S 1 217 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 217 "ltm" S 0 217 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush163" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 217 0 S 1 217 0 S 1 217 0 S 1 217 1 S 1 217 1 S 1 217 0 S 1 217 658.1 S 1 217 9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 217 658.1 S 1 217 9 S 1 217 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 217 "ltm" S 0 217 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush162" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 649.4 S 1 216 17.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 649.4 S 1 216 17.2 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush161" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 628.9 S 1 216 14.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 628.9 S 1 216 14.9 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush160" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 634.8 S 1 216 19.3 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 634.8 S 1 216 19.3 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush159" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 644.6 S 1 216 17.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 644.6 S 1 216 17.1 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush158" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 645.5 S 1 216 12.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 645.5 S 1 216 12.6 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush157" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 641.6 S 1 216 9.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 641.6 S 1 216 9.1 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush156" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 639.2 S 1 216 13.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 639.2 S 1 216 13.8 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush155" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 216 0 S 1 216 0 S 1 216 0 S 1 216 1 S 1 216 1 S 1 216 0 S 1 216 632.3 S 1 216 15.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 216 632.3 S 1 216 15.1 S 1 216 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 216 "ltm" S 0 216 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush154" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 215 0 S 1 215 0 S 1 215 0 S 1 215 1 S 1 215 1 S 1 215 0 S 1 215 629.7 S 1 215 20.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 215 629.7 S 1 215 20.9 S 1 215 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 215 "ltm" S 0 215 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush153" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 215 0 S 1 215 0 S 1 215 0 S 1 215 1 S 1 215 1 S 1 215 0 S 1 215 624 S 1 215 20.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 215 624 S 1 215 20.9 S 1 215 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 215 "ltm" S 0 215 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush152" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 215 0 S 1 215 0 S 1 215 0 S 1 215 1 S 1 215 1 S 1 215 0 S 1 215 626 S 1 215 9.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 215 626 S 1 215 9.2 S 1 215 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 215 "ltm" S 0 215 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush151" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 215 0 S 1 215 0 S 1 215 0 S 1 215 1 S 1 215 1 S 1 215 0 S 1 215 628.9 S 1 215 12.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 215 628.9 S 1 215 12.9 S 1 215 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 215 "ltm" S 0 215 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush150" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 215 0 S 1 215 0 S 1 215 0 S 1 215 1 S 1 215 1 S 1 215 0 S 1 215 624.3 S 1 215 12.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 215 624.3 S 1 215 12.7 S 1 215 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 215 "ltm" S 0 215 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush149" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 215 0 S 1 215 0 S 1 215 0 S 1 215 1 S 1 215 1 S 1 215 0 S 1 215 618.1 S 1 215 18.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 215 618.1 S 1 215 18.1 S 1 215 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 215 "ltm" S 0 215 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush148" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 215 0 S 1 215 0 S 1 215 0 S 1 215 1 S 1 215 1 S 1 215 0 S 1 215 621.6 S 1 215 17.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 215 621.6 S 1 215 17.8 S 1 215 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 215 "ltm" S 0 215 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush147" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 214 0 S 1 214 0 S 1 214 0 S 1 214 1 S 1 214 1 S 1 214 0 S 1 214 609.6 S 1 214 21.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 214 609.6 S 1 214 21.2 S 1 214 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 214 "ltm" S 0 214 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush146" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 214 0 S 1 214 0 S 1 214 0 S 1 214 1 S 1 214 1 S 1 214 0 S 1 214 613.9 S 1 214 21.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 214 613.9 S 1 214 21.4 S 1 214 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 214 "ltm" S 0 214 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush145" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 214 0 S 1 214 0 S 1 214 0 S 1 214 1 S 1 214 1 S 1 214 0 S 1 214 612.4 S 1 214 16.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 214 612.4 S 1 214 16.7 S 1 214 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 214 "ltm" S 0 214 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush144" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 214 0 S 1 214 0 S 1 214 0 S 1 214 1 S 1 214 1 S 1 214 0 S 1 214 608.7 S 1 214 17.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 214 608.7 S 1 214 17.2 S 1 214 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 214 "ltm" S 0 214 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush143" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 214 0 S 1 214 0 S 1 214 0 S 1 214 1 S 1 214 1 S 1 214 0 S 1 214 604 S 1 214 18.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 214 604 S 1 214 18.8 S 1 214 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 214 "ltm" S 0 214 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush142" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 214 0 S 1 214 0 S 1 214 0 S 1 214 1 S 1 214 1 S 1 214 0 S 1 214 599.6 S 1 214 18.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 214 599.6 S 1 214 18.8 S 1 214 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 214 "ltm" S 0 214 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush141" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 214 0 S 1 214 0 S 1 214 0 S 1 214 1 S 1 214 1 S 1 214 0 S 1 214 604.6 S 1 214 22.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 214 604.6 S 1 214 22.8 S 1 214 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 214 "ltm" S 0 214 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush140" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 213 0 S 1 213 0 S 1 213 0 S 1 213 1 S 1 213 1 S 1 213 0 S 1 213 601.9 S 1 213 21 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 213 601.9 S 1 213 21 S 1 213 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 213 "ltm" S 0 213 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush139" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 213 0 S 1 213 0 S 1 213 0 S 1 213 1 S 1 213 1 S 1 213 0 S 1 213 599.5 S 1 213 20.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 213 599.5 S 1 213 20.9 S 1 213 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 213 "ltm" S 0 213 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush138" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 213 0 S 1 213 0 S 1 213 0 S 1 213 1 S 1 213 1 S 1 213 0 S 1 213 594.6 S 1 213 23 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 213 594.6 S 1 213 23 S 1 213 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 213 "ltm" S 0 213 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush137" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 213 0 S 1 213 0 S 1 213 0 S 1 213 1 S 1 213 1 S 1 213 0 S 1 213 589.1 S 1 213 23.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 213 589.1 S 1 213 23.4 S 1 213 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 213 "ltm" S 0 213 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush136" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 213 0 S 1 213 0 S 1 213 0 S 1 213 1 S 1 213 1 S 1 213 0 S 1 213 580.7 S 1 213 19.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 213 580.7 S 1 213 19.1 S 1 213 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 213 "ltm" S 0 213 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush135" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 213 0 S 1 213 0 S 1 213 0 S 1 213 1 S 1 213 1 S 1 213 0 S 1 213 589.4 S 1 213 19 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 213 589.4 S 1 213 19 S 1 213 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 213 "ltm" S 0 213 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush134" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 213 0 S 1 213 0 S 1 213 0 S 1 213 1 S 1 213 1 S 1 213 0 S 1 213 585.6 S 1 213 18.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 213 585.6 S 1 213 18.7 S 1 213 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 213 "ltm" S 0 213 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush133" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 212 0 S 1 212 0 S 1 212 0 S 1 212 1 S 1 212 1 S 1 212 0 S 1 212 582.5 S 1 212 20.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 212 582.5 S 1 212 20.1 S 1 212 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 212 "ltm" S 0 212 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush132" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 212 0 S 1 212 0 S 1 212 0 S 1 212 1 S 1 212 1 S 1 212 0 S 1 212 578.6 S 1 212 21.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 212 578.6 S 1 212 21.2 S 1 212 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 212 "ltm" S 0 212 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush131" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 212 0 S 1 212 0 S 1 212 0 S 1 212 1 S 1 212 1 S 1 212 0 S 1 212 571.7 S 1 212 22.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 212 571.7 S 1 212 22.7 S 1 212 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 212 "ltm" S 0 212 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush130" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 212 0 S 1 212 0 S 1 212 0 S 1 212 1 S 1 212 1 S 1 212 0 S 1 212 569.4 S 1 212 19.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 212 569.4 S 1 212 19.1 S 1 212 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 212 "ltm" S 0 212 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush129" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 211 0 S 1 211 0 S 1 211 0 S 1 211 1 S 1 211 1 S 1 211 0 S 1 211 554.2 S 1 211 18.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 211 554.2 S 1 211 18.9 S 1 211 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 211 "ltm" S 0 211 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush128" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 211 0 S 1 211 0 S 1 211 0 S 1 211 1 S 1 211 1 S 1 211 0 S 1 211 557.2 S 1 211 18.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 211 557.2 S 1 211 18.6 S 1 211 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 211 "ltm" S 0 211 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush127" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 211 0 S 1 211 0 S 1 211 0 S 1 211 1 S 1 211 1 S 1 211 0 S 1 211 564.7 S 1 211 20.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 211 564.7 S 1 211 20.6 S 1 211 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 211 "ltm" S 0 211 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush126" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 211 0 S 1 211 0 S 1 211 0 S 1 211 1 S 1 211 1 S 1 211 0 S 1 211 560 S 1 211 23 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 211 560 S 1 211 23 S 1 211 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 211 "ltm" S 0 211 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush125" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 210 0 S 1 210 0 S 1 210 0 S 1 210 1 S 1 210 1 S 1 210 0 S 1 210 544.6 S 1 210 19.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 210 544.6 S 1 210 19.2 S 1 210 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 210 "ltm" S 0 210 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush124" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 210 0 S 1 210 0 S 1 210 0 S 1 210 1 S 1 210 1 S 1 210 0 S 1 210 553.5 S 1 210 16.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 210 553.5 S 1 210 16.9 S 1 210 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 210 "ltm" S 0 210 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush123" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 210 0 S 1 210 0 S 1 210 0 S 1 210 1 S 1 210 1 S 1 210 0 S 1 210 551.5 S 1 210 21 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 210 551.5 S 1 210 21 S 1 210 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 210 "ltm" S 0 210 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush122" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 210 0 S 1 210 0 S 1 210 0 S 1 210 1 S 1 210 1 S 1 210 0 S 1 210 545.9 S 1 210 23.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 210 545.9 S 1 210 23.2 S 1 210 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 210 "ltm" S 0 210 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush121" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 210 0 S 1 210 0 S 1 210 0 S 1 210 1 S 1 210 1 S 1 210 0 S 1 210 548.4 S 1 210 20.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 210 548.4 S 1 210 20.9 S 1 210 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 210 "ltm" S 0 210 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush120" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 209 0 S 1 209 0 S 1 209 0 S 1 209 1 S 1 209 1 S 1 209 0 S 1 209 532.1 S 1 209 22.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 209 532.1 S 1 209 22.9 S 1 209 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 209 "ltm" S 0 209 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush119" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 209 0 S 1 209 0 S 1 209 0 S 1 209 1 S 1 209 1 S 1 209 0 S 1 209 531 S 1 209 18.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 209 531 S 1 209 18.4 S 1 209 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 209 "ltm" S 0 209 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush118" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 209 0 S 1 209 0 S 1 209 0 S 1 209 1 S 1 209 1 S 1 209 0 S 1 209 539 S 1 209 16.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 209 539 S 1 209 16.7 S 1 209 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 209 "ltm" S 0 209 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush117" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 209 0 S 1 209 0 S 1 209 0 S 1 209 1 S 1 209 1 S 1 209 0 S 1 209 545.4 S 1 209 20.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 209 545.4 S 1 209 20.9 S 1 209 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 209 "ltm" S 0 209 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush116" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 209 0 S 1 209 0 S 1 209 0 S 1 209 1 S 1 209 1 S 1 209 0 S 1 209 540.4 S 1 209 24.5 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 209 540.4 S 1 209 24.5 S 1 209 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 209 "ltm" S 0 209 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush115" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 209 0 S 1 209 0 S 1 209 0 S 1 209 1 S 1 209 1 S 1 209 0 S 1 209 537.7 S 1 209 20.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 209 537.7 S 1 209 20.9 S 1 209 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 209 "ltm" S 0 209 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush114" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 208 0 S 1 208 0 S 1 208 0 S 1 208 1 S 1 208 1 S 1 208 0 S 1 208 514 S 1 208 19.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 208 514 S 1 208 19.1 S 1 208 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 208 "ltm" S 0 208 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush113" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 208 0 S 1 208 0 S 1 208 0 S 1 208 1 S 1 208 1 S 1 208 0 S 1 208 526.3 S 1 208 17.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 208 526.3 S 1 208 17.2 S 1 208 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 208 "ltm" S 0 208 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush112" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 208 0 S 1 208 0 S 1 208 0 S 1 208 1 S 1 208 1 S 1 208 0 S 1 208 523 S 1 208 16.5 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 208 523 S 1 208 16.5 S 1 208 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 208 "ltm" S 0 208 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush111" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 208 0 S 1 208 0 S 1 208 0 S 1 208 1 S 1 208 1 S 1 208 0 S 1 208 519.5 S 1 208 23 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 208 519.5 S 1 208 23 S 1 208 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 208 "ltm" S 0 208 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush110" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 208 0 S 1 208 0 S 1 208 0 S 1 208 1 S 1 208 1 S 1 208 0 S 1 208 523.7 S 1 208 21.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 208 523.7 S 1 208 21.9 S 1 208 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 208 "ltm" S 0 208 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush109" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 208 0 S 1 208 0 S 1 208 0 S 1 208 1 S 1 208 1 S 1 208 0 S 1 208 517 S 1 208 18.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 208 517 S 1 208 18.9 S 1 208 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 208 "ltm" S 0 208 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush108" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 207 0 S 1 207 0 S 1 207 0 S 1 207 1 S 1 207 1 S 1 207 0 S 1 207 516.3 S 1 207 21.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 207 516.3 S 1 207 21.2 S 1 207 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 207 "ltm" S 0 207 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush107" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 207 0 S 1 207 0 S 1 207 0 S 1 207 1 S 1 207 1 S 1 207 0 S 1 207 515.8 S 1 207 16.5 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 207 515.8 S 1 207 16.5 S 1 207 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 207 "ltm" S 0 207 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush106" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 207 0 S 1 207 0 S 1 207 0 S 1 207 1 S 1 207 1 S 1 207 0 S 1 207 511.2 S 1 207 15.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 207 511.2 S 1 207 15.1 S 1 207 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 207 "ltm" S 0 207 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush105" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 207 0 S 1 207 0 S 1 207 0 S 1 207 1 S 1 207 1 S 1 207 0 S 1 207 510.5 S 1 207 19.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 207 510.5 S 1 207 19.1 S 1 207 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 207 "ltm" S 0 207 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush104" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 207 0 S 1 207 0 S 1 207 0 S 1 207 1 S 1 207 1 S 1 207 0 S 1 207 513.3 S 1 207 20.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 207 513.3 S 1 207 20.7 S 1 207 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 207 "ltm" S 0 207 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush103" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 207 0 S 1 207 0 S 1 207 0 S 1 207 1 S 1 207 1 S 1 207 0 S 1 207 506.8 S 1 207 15.3 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 207 506.8 S 1 207 15.3 S 1 207 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 207 "ltm" S 0 207 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush102" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 207 0 S 1 207 0 S 1 207 0 S 1 207 1 S 1 207 1 S 1 207 0 S 1 207 505.6 S 1 207 19.5 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 207 505.6 S 1 207 19.5 S 1 207 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 207 "ltm" S 0 207 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush101" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 206 0 S 1 206 0 S 1 206 0 S 1 206 1 S 1 206 1 S 1 206 0 S 1 206 507.2 S 1 206 17 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 206 507.2 S 1 206 17 S 1 206 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 206 "ltm" S 0 206 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush100" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 206 0 S 1 206 0 S 1 206 0 S 1 206 1 S 1 206 1 S 1 206 0 S 1 206 496.8 S 1 206 18.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 206 496.8 S 1 206 18.2 S 1 206 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 206 "ltm" S 0 206 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush99" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 206 0 S 1 206 0 S 1 206 0 S 1 206 1 S 1 206 1 S 1 206 0 S 1 206 502.6 S 1 206 18.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 206 502.6 S 1 206 18.2 S 1 206 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 206 "ltm" S 0 206 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush98" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 206 0 S 1 206 0 S 1 206 0 S 1 206 1 S 1 206 1 S 1 206 0 S 1 206 494.2 S 1 206 14.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 206 494.2 S 1 206 14.2 S 1 206 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 206 "ltm" S 0 206 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush97" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 206 0 S 1 206 0 S 1 206 0 S 1 206 1 S 1 206 1 S 1 206 0 S 1 206 492.1 S 1 206 18.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 206 492.1 S 1 206 18.8 S 1 206 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 206 "ltm" S 0 206 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush96" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 205 0 S 1 205 0 S 1 205 0 S 1 205 1 S 1 205 1 S 1 205 0 S 1 205 494 S 1 205 16.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 205 494 S 1 205 16.7 S 1 205 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 205 "ltm" S 0 205 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush95" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 205 0 S 1 205 0 S 1 205 0 S 1 205 1 S 1 205 1 S 1 205 0 S 1 205 473.7 S 1 205 14.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 205 473.7 S 1 205 14.7 S 1 205 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 205 "ltm" S 0 205 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush94" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 205 0 S 1 205 0 S 1 205 0 S 1 205 1 S 1 205 1 S 1 205 0 S 1 205 486.8 S 1 205 12.3 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 205 486.8 S 1 205 12.3 S 1 205 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 205 "ltm" S 0 205 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush93" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 205 0 S 1 205 0 S 1 205 0 S 1 205 1 S 1 205 1 S 1 205 0 S 1 205 489.8 S 1 205 17.5 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 205 489.8 S 1 205 17.5 S 1 205 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 205 "ltm" S 0 205 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush92" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 205 0 S 1 205 0 S 1 205 0 S 1 205 1 S 1 205 1 S 1 205 0 S 1 205 485.3 S 1 205 16.3 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 205 485.3 S 1 205 16.3 S 1 205 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 205 "ltm" S 0 205 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush91" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 205 0 S 1 205 0 S 1 205 0 S 1 205 1 S 1 205 1 S 1 205 0 S 1 205 478.9 S 1 205 18.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 205 478.9 S 1 205 18.8 S 1 205 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 205 "ltm" S 0 205 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush90" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 205 0 S 1 205 0 S 1 205 0 S 1 205 1 S 1 205 1 S 1 205 0 S 1 205 479.1 S 1 205 15.1 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 205 479.1 S 1 205 15.1 S 1 205 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 205 "ltm" S 0 205 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush89" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 460.9 S 1 204 14.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 460.9 S 1 204 14.9 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush88" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 470.7 S 1 204 14.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 470.7 S 1 204 14.9 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush87" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 466.7 S 1 204 14.7 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 466.7 S 1 204 14.7 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush86" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 461.8 S 1 204 18.9 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 461.8 S 1 204 18.9 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush85" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 465.1 S 1 204 18.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 465.1 S 1 204 18.6 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush84" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 471.2 S 1 204 21.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 471.2 S 1 204 21.2 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush83" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 476.8 S 1 204 21.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 476.8 S 1 204 21.6 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush82" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 204 0 S 1 204 0 S 1 204 0 S 1 204 1 S 1 204 1 S 1 204 0 S 1 204 476.3 S 1 204 16.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 204 476.3 S 1 204 16.8 S 1 204 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 204 "ltm" S 0 204 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush81" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 203 0 S 1 203 0 S 1 203 0 S 1 203 1 S 1 203 1 S 1 203 0 S 1 203 458.6 S 1 203 21.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 203 458.6 S 1 203 21.4 S 1 203 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 203 "ltm" S 0 203 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush80" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 203 0 S 1 203 0 S 1 203 0 S 1 203 1 S 1 203 1 S 1 203 0 S 1 203 456.8 S 1 203 16 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 203 456.8 S 1 203 16 S 1 203 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 203 "ltm" S 0 203 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush79" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 203 0 S 1 203 0 S 1 203 0 S 1 203 1 S 1 203 1 S 1 203 0 S 1 203 454.4 S 1 203 21.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 203 454.4 S 1 203 21.6 S 1 203 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 203 "ltm" S 0 203 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush78" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 203 0 S 1 203 0 S 1 203 0 S 1 203 1 S 1 203 1 S 1 203 0 S 1 203 445.4 S 1 203 18.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 203 445.4 S 1 203 18.6 S 1 203 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 203 "ltm" S 0 203 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush77" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 203 0 S 1 203 0 S 1 203 0 S 1 203 1 S 1 203 1 S 1 203 0 S 1 203 444.6 S 1 203 23 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 203 444.6 S 1 203 23 S 1 203 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 203 "ltm" S 0 203 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush76" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 202 0 S 1 202 0 S 1 202 0 S 1 202 1 S 1 202 1 S 1 202 0 S 1 202 441.2 S 1 202 24.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 202 441.2 S 1 202 24.6 S 1 202 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 202 "ltm" S 0 202 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush75" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 202 0 S 1 202 0 S 1 202 0 S 1 202 1 S 1 202 1 S 1 202 0 S 1 202 437.6 S 1 202 20.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 202 437.6 S 1 202 20.4 S 1 202 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 202 "ltm" S 0 202 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush74" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 202 0 S 1 202 0 S 1 202 0 S 1 202 1 S 1 202 1 S 1 202 0 S 1 202 430 S 1 202 22.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 202 430 S 1 202 22.8 S 1 202 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 202 "ltm" S 0 202 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush73" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 202 0 S 1 202 0 S 1 202 0 S 1 202 1 S 1 202 1 S 1 202 0 S 1 202 428.8 S 1 202 27 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 202 428.8 S 1 202 27 S 1 202 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 202 "ltm" S 0 202 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush72" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 201 0 S 1 201 0 S 1 201 0 S 1 201 1 S 1 201 1 S 1 201 0 S 1 201 410.4 S 1 201 23 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 201 410.4 S 1 201 23 S 1 201 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 201 "ltm" S 0 201 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush71" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 201 0 S 1 201 0 S 1 201 0 S 1 201 1 S 1 201 1 S 1 201 0 S 1 201 411.4 S 1 201 27 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 201 411.4 S 1 201 27 S 1 201 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 201 "ltm" S 0 201 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush70" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 201 0 S 1 201 0 S 1 201 0 S 1 201 1 S 1 201 1 S 1 201 0 S 1 201 423.6 S 1 201 25.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 201 423.6 S 1 201 25.2 S 1 201 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 201 "ltm" S 0 201 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush69" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 201 0 S 1 201 0 S 1 201 0 S 1 201 1 S 1 201 1 S 1 201 0 S 1 201 423.4 S 1 201 28.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 201 423.4 S 1 201 28.8 S 1 201 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 201 "ltm" S 0 201 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush68" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 201 0 S 1 201 0 S 1 201 0 S 1 201 1 S 1 201 1 S 1 201 0 S 1 201 417.8 S 1 201 27.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 201 417.8 S 1 201 27.4 S 1 201 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 201 "ltm" S 0 201 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush67" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 201 0 S 1 201 0 S 1 201 0 S 1 201 1 S 1 201 1 S 1 201 0 S 1 201 409.6 S 1 201 30.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 201 409.6 S 1 201 30.8 S 1 201 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 201 "ltm" S 0 201 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush66" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 200 0 S 1 200 0 S 1 200 0 S 1 200 1 S 1 200 1 S 1 200 0 S 1 200 402.2 S 1 200 21.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 200 402.2 S 1 200 21.2 S 1 200 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 200 "ltm" S 0 200 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush65" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 200 0 S 1 200 0 S 1 200 0 S 1 200 1 S 1 200 1 S 1 200 0 S 1 200 395.8 S 1 200 34.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 200 395.8 S 1 200 34.8 S 1 200 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 200 "ltm" S 0 200 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush64" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 200 0 S 1 200 0 S 1 200 0 S 1 200 1 S 1 200 1 S 1 200 0 S 1 200 393.4 S 1 200 35.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 200 393.4 S 1 200 35.8 S 1 200 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 200 "ltm" S 0 200 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush63" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 200 0 S 1 200 0 S 1 200 0 S 1 200 1 S 1 200 1 S 1 200 0 S 1 200 404.6 S 1 200 30.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 200 404.6 S 1 200 30.8 S 1 200 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 200 "ltm" S 0 200 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush62" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 199 0 S 1 199 0 S 1 199 0 S 1 199 1 S 1 199 1 S 1 199 0 S 1 199 374 S 1 199 39.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 199 374 S 1 199 39.2 S 1 199 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 199 "ltm" S 0 199 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush61" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 199 0 S 1 199 0 S 1 199 0 S 1 199 1 S 1 199 1 S 1 199 0 S 1 199 384.6 S 1 199 37.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 199 384.6 S 1 199 37.4 S 1 199 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 199 "ltm" S 0 199 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush60" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 199 0 S 1 199 0 S 1 199 0 S 1 199 1 S 1 199 1 S 1 199 0 S 1 199 376.4 S 1 199 42.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 199 376.4 S 1 199 42.8 S 1 199 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 199 "ltm" S 0 199 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush59" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 199 0 S 1 199 0 S 1 199 0 S 1 199 1 S 1 199 1 S 1 199 0 S 1 199 380.8 S 1 199 39.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 199 380.8 S 1 199 39.2 S 1 199 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 199 "ltm" S 0 199 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush58" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 199 0 S 1 199 0 S 1 199 0 S 1 199 1 S 1 199 1 S 1 199 0 S 1 199 388.6 S 1 199 37.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 199 388.6 S 1 199 37.8 S 1 199 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 199 "ltm" S 0 199 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush57" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 198 0 S 1 198 0 S 1 198 0 S 1 198 1 S 1 198 1 S 1 198 0 S 1 198 359.2 S 1 198 51.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 198 359.2 S 1 198 51.4 S 1 198 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 198 "ltm" S 0 198 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush56" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 198 0 S 1 198 0 S 1 198 0 S 1 198 1 S 1 198 1 S 1 198 0 S 1 198 359 S 1 198 49 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 198 359 S 1 198 49 S 1 198 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 198 "ltm" S 0 198 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush55" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 198 0 S 1 198 0 S 1 198 0 S 1 198 1 S 1 198 1 S 1 198 0 S 1 198 363.2 S 1 198 46.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 198 363.2 S 1 198 46.8 S 1 198 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 198 "ltm" S 0 198 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush54" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 198 0 S 1 198 0 S 1 198 0 S 1 198 1 S 1 198 1 S 1 198 0 S 1 198 370.4 S 1 198 44.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 198 370.4 S 1 198 44.2 S 1 198 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 198 "ltm" S 0 198 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush53" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 197 0 S 1 197 0 S 1 197 0 S 1 197 1 S 1 197 1 S 1 197 0 S 1 197 347.8 S 1 197 59.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 197 347.8 S 1 197 59.2 S 1 197 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 197 "ltm" S 0 197 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush52" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 197 0 S 1 197 0 S 1 197 0 S 1 197 1 S 1 197 1 S 1 197 0 S 1 197 347.2 S 1 197 54.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 197 347.2 S 1 197 54.6 S 1 197 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 197 "ltm" S 0 197 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush51" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 197 0 S 1 197 0 S 1 197 0 S 1 197 1 S 1 197 1 S 1 197 0 S 1 197 355.8 S 1 197 53.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 197 355.8 S 1 197 53.4 S 1 197 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 197 "ltm" S 0 197 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush50" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 196 0 S 1 196 0 S 1 196 0 S 1 196 1 S 1 196 1 S 1 196 0 S 1 196 331.6 S 1 196 63 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 196 331.6 S 1 196 63 S 1 196 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 196 "ltm" S 0 196 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush49" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 196 0 S 1 196 0 S 1 196 0 S 1 196 1 S 1 196 1 S 1 196 0 S 1 196 336.2 S 1 196 62.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 196 336.2 S 1 196 62.4 S 1 196 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 196 "ltm" S 0 196 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush48" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 196 0 S 1 196 0 S 1 196 0 S 1 196 1 S 1 196 1 S 1 196 0 S 1 196 340.4 S 1 196 60.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 196 340.4 S 1 196 60.4 S 1 196 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 196 "ltm" S 0 196 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush47" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 195 0 S 1 195 0 S 1 195 0 S 1 195 1 S 1 195 1 S 1 195 0 S 1 195 331.6 S 1 195 69.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 195 331.6 S 1 195 69.6 S 1 195 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 195 "ltm" S 0 195 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush46" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 195 0 S 1 195 0 S 1 195 0 S 1 195 1 S 1 195 1 S 1 195 0 S 1 195 318.4 S 1 195 71.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 195 318.4 S 1 195 71.2 S 1 195 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 195 "ltm" S 0 195 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush45" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 195 0 S 1 195 0 S 1 195 0 S 1 195 1 S 1 195 1 S 1 195 0 S 1 195 323 S 1 195 70.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 195 323 S 1 195 70.8 S 1 195 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 195 "ltm" S 0 195 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush44" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 195 0 S 1 195 0 S 1 195 0 S 1 195 1 S 1 195 1 S 1 195 0 S 1 195 328.4 S 1 195 65.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 195 328.4 S 1 195 65.8 S 1 195 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 195 "ltm" S 0 195 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush43" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 194 0 S 1 194 0 S 1 194 0 S 1 194 1 S 1 194 1 S 1 194 0 S 1 194 308 S 1 194 79.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 194 308 S 1 194 79.6 S 1 194 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 194 "ltm" S 0 194 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush42" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 194 0 S 1 194 0 S 1 194 0 S 1 194 1 S 1 194 1 S 1 194 0 S 1 194 305.8 S 1 194 73.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 194 305.8 S 1 194 73.4 S 1 194 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 194 "ltm" S 0 194 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush41" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 194 0 S 1 194 0 S 1 194 0 S 1 194 1 S 1 194 1 S 1 194 0 S 1 194 309.6 S 1 194 75 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 194 309.6 S 1 194 75 S 1 194 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 194 "ltm" S 0 194 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush40" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 194 0 S 1 194 0 S 1 194 0 S 1 194 1 S 1 194 1 S 1 194 0 S 1 194 317 S 1 194 74.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 194 317 S 1 194 74.6 S 1 194 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 194 "ltm" S 0 194 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush39" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 193 0 S 1 193 0 S 1 193 0 S 1 193 1 S 1 193 1 S 1 193 0 S 1 193 298 S 1 193 85.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 193 298 S 1 193 85.8 S 1 193 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 193 "ltm" S 0 193 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush38" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 193 0 S 1 193 0 S 1 193 0 S 1 193 1 S 1 193 1 S 1 193 0 S 1 193 294.2 S 1 193 84.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 193 294.2 S 1 193 84.2 S 1 193 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 193 "ltm" S 0 193 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush37" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 193 0 S 1 193 0 S 1 193 0 S 1 193 1 S 1 193 1 S 1 193 0 S 1 193 303.4 S 1 193 80.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 193 303.4 S 1 193 80.8 S 1 193 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 193 "ltm" S 0 193 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush36" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 193 0 S 1 193 0 S 1 193 0 S 1 193 1 S 1 193 1 S 1 193 0 S 1 193 300 S 1 193 81.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 193 300 S 1 193 81.6 S 1 193 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 193 "ltm" S 0 193 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush35" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 192 0 S 1 192 0 S 1 192 0 S 1 192 1 S 1 192 1 S 1 192 0 S 1 192 286.2 S 1 192 87 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 192 286.2 S 1 192 87 S 1 192 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 192 "ltm" S 0 192 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush34" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 192 0 S 1 192 0 S 1 192 0 S 1 192 1 S 1 192 1 S 1 192 0 S 1 192 290 S 1 192 90 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 192 290 S 1 192 90 S 1 192 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 192 "ltm" S 0 192 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush33" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 192 0 S 1 192 0 S 1 192 0 S 1 192 1 S 1 192 1 S 1 192 0 S 1 192 278.8 S 1 192 93.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 192 278.8 S 1 192 93.8 S 1 192 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 192 "ltm" S 0 192 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush32" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 192 0 S 1 192 0 S 1 192 0 S 1 192 1 S 1 192 1 S 1 192 0 S 1 192 287.6 S 1 192 93.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 192 287.6 S 1 192 93.4 S 1 192 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 192 "ltm" S 0 192 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush31" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 192 0 S 1 192 0 S 1 192 0 S 1 192 1 S 1 192 1 S 1 192 0 S 1 192 283.8 S 1 192 92 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 192 283.8 S 1 192 92 S 1 192 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 192 "ltm" S 0 192 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush30" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 192 0 S 1 192 0 S 1 192 0 S 1 192 1 S 1 192 1 S 1 192 0 S 1 192 292 S 1 192 89.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 192 292 S 1 192 89.6 S 1 192 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 192 "ltm" S 0 192 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush29" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 191 0 S 1 191 0 S 1 191 0 S 1 191 1 S 1 191 1 S 1 191 0 S 1 191 284.2 S 1 191 103 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 191 284.2 S 1 191 103 S 1 191 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 191 "ltm" S 0 191 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush28" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 191 0 S 1 191 0 S 1 191 0 S 1 191 1 S 1 191 1 S 1 191 0 S 1 191 278.4 S 1 191 88.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 191 278.4 S 1 191 88.4 S 1 191 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 191 "ltm" S 0 191 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush27" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 191 0 S 1 191 0 S 1 191 0 S 1 191 1 S 1 191 1 S 1 191 0 S 1 191 284.2 S 1 191 97.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 191 284.2 S 1 191 97.4 S 1 191 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 191 "ltm" S 0 191 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush26" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 191 0 S 1 191 0 S 1 191 0 S 1 191 1 S 1 191 1 S 1 191 0 S 1 191 276.6 S 1 191 100.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 191 276.6 S 1 191 100.8 S 1 191 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 191 "ltm" S 0 191 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush25" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 191 0 S 1 191 0 S 1 191 0 S 1 191 1 S 1 191 1 S 1 191 0 S 1 191 280.4 S 1 191 97.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 191 280.4 S 1 191 97.4 S 1 191 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 191 "ltm" S 0 191 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush24" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 190 0 S 1 190 0 S 1 190 0 S 1 190 1 S 1 190 1 S 1 190 0 S 1 190 269.2 S 1 190 106.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 190 269.2 S 1 190 106.6 S 1 190 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 190 "ltm" S 0 190 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush23" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 190 0 S 1 190 0 S 1 190 0 S 1 190 1 S 1 190 1 S 1 190 0 S 1 190 270.4 S 1 190 102 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 190 270.4 S 1 190 102 S 1 190 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 190 "ltm" S 0 190 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush22" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 190 0 S 1 190 0 S 1 190 0 S 1 190 1 S 1 190 1 S 1 190 0 S 1 190 274.2 S 1 190 106.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 190 274.2 S 1 190 106.6 S 1 190 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 190 "ltm" S 0 190 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush21" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 190 0 S 1 190 0 S 1 190 0 S 1 190 1 S 1 190 1 S 1 190 0 S 1 190 265.4 S 1 190 106.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 190 265.4 S 1 190 106.6 S 1 190 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 190 "ltm" S 0 190 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush20" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 189 0 S 1 189 0 S 1 189 0 S 1 189 1 S 1 189 1 S 1 189 0 S 1 189 264.6 S 1 189 110.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 189 264.6 S 1 189 110.8 S 1 189 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 189 "ltm" S 0 189 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush19" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 189 0 S 1 189 0 S 1 189 0 S 1 189 1 S 1 189 1 S 1 189 0 S 1 189 269.2 S 1 189 110.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 189 269.2 S 1 189 110.8 S 1 189 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 189 "ltm" S 0 189 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush18" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 189 0 S 1 189 0 S 1 189 0 S 1 189 1 S 1 189 1 S 1 189 0 S 1 189 261.2 S 1 189 110.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 189 261.2 S 1 189 110.4 S 1 189 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 189 "ltm" S 0 189 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush17" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 188 0 S 1 188 0 S 1 188 0 S 1 188 1 S 1 188 1 S 1 188 0 S 1 188 257.6 S 1 188 108.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 188 257.6 S 1 188 108.4 S 1 188 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 188 "ltm" S 0 188 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush16" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 188 0 S 1 188 0 S 1 188 0 S 1 188 1 S 1 188 1 S 1 188 0 S 1 188 260.8 S 1 188 113 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 188 260.8 S 1 188 113 S 1 188 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 188 "ltm" S 0 188 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush15" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 188 0 S 1 188 0 S 1 188 0 S 1 188 1 S 1 188 1 S 1 188 0 S 1 188 255.4 S 1 188 112.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 188 255.4 S 1 188 112.4 S 1 188 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 188 "ltm" S 0 188 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush14" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 187 0 S 1 187 0 S 1 187 0 S 1 187 1 S 1 187 1 S 1 187 0 S 1 187 259.6 S 1 187 114.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 187 259.6 S 1 187 114.6 S 1 187 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 187 "ltm" S 0 187 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush13" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 187 0 S 1 187 0 S 1 187 0 S 1 187 1 S 1 187 1 S 1 187 0 S 1 187 256.6 S 1 187 112.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 187 256.6 S 1 187 112.4 S 1 187 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 187 "ltm" S 0 187 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush12" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 187 0 S 1 187 0 S 1 187 0 S 1 187 1 S 1 187 1 S 1 187 0 S 1 187 253 S 1 187 113 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 187 253 S 1 187 113 S 1 187 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 187 "ltm" S 0 187 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush11" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 187 0 S 1 187 0 S 1 187 0 S 1 187 1 S 1 187 1 S 1 187 0 S 1 187 248.4 S 1 187 113.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 187 248.4 S 1 187 113.8 S 1 187 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 187 "ltm" S 0 187 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush10" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 186 0 S 1 186 0 S 1 186 0 S 1 186 1 S 1 186 1 S 1 186 0 S 1 186 253 S 1 186 112.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 186 253 S 1 186 112.4 S 1 186 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 186 "ltm" S 0 186 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush9" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 186 0 S 1 186 0 S 1 186 0 S 1 186 1 S 1 186 1 S 1 186 0 S 1 186 248.4 S 1 186 111.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 186 248.4 S 1 186 111.6 S 1 186 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 186 "ltm" S 0 186 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush8" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 186 0 S 1 186 0 S 1 186 0 S 1 186 1 S 1 186 1 S 1 186 0 S 1 186 244.6 S 1 186 110.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 186 244.6 S 1 186 110.8 S 1 186 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 186 "ltm" S 0 186 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush7" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 185 0 S 1 185 0 S 1 185 0 S 1 185 1 S 1 185 1 S 1 185 0 S 1 185 248.8 S 1 185 112 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 185 248.8 S 1 185 112 S 1 185 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 185 "ltm" S 0 185 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush6" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 185 0 S 1 185 0 S 1 185 0 S 1 185 1 S 1 185 1 S 1 185 0 S 1 185 244.6 S 1 185 110.4 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 185 244.6 S 1 185 110.4 S 1 185 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 185 "ltm" S 0 185 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush5" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 185 0 S 1 185 0 S 1 185 0 S 1 185 1 S 1 185 1 S 1 185 0 S 1 185 239.6 S 1 185 109.6 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 185 239.6 S 1 185 109.6 S 1 185 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 185 "ltm" S 0 185 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush4" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 184 0 S 1 184 0 S 1 184 0 S 1 184 1 S 1 184 1 S 1 184 0 S 1 184 243.8 S 1 184 110 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 184 243.8 S 1 184 110 S 1 184 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 184 "ltm" S 0 184 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush3" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 184 0 S 1 184 0 S 1 184 0 S 1 184 1 S 1 184 1 S 1 184 0 S 1 184 241.6 S 1 184 109.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 184 241.6 S 1 184 109.2 S 1 184 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 184 "ltm" S 0 184 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush2" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 184 0 S 1 184 0 S 1 184 0 S 1 184 1 S 1 184 1 S 1 184 0 S 1 184 236.2 S 1 184 108.8 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 184 236.2 S 1 184 108.8 S 1 184 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 184 "ltm" S 0 184 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush1" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 183 0 S 1 183 0 S 1 183 0 S 1 183 1 S 1 183 1 S 1 183 0 S 1 183 237.4 S 1 183 109.2 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 1
+     0 S 1 183 237.4 S 1 183 109.2 S 1 183 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 960 "spy" S 0 540 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 183 "ltm" S 0 183 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+ }
+}
+}
+ toolbox {brush {
+  { selectAll ssx 1 ssy 1 sf 1 }
+  { createBezier ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle ssx 1 ssy 1 sf 1 sb 1 }
+  { brush ssx 1 ssy 1 sf 1 sb 1 ltn 219 ltm 219 tt 14 }
+  { eraser src 2 ssx 1 ssy 1 sf 1 sb 1 tt 15 }
+  { clone src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {960 540}
+ lifetime_start 219
+ lifetime_end 219
+ motionblur_on true
+ brush_spacing 0.05000000075
+ brush_hardness 0.200000003
+ source_black_outside true
+ createNewTrack {{-1} "-1\t(none)\t-1" "1000\tNew Track Layer\t1000"}
+ name RotoPaint1
+ xpos 129
+ ypos -38
+}
+Read {
+ inputs 0
+ file /DPA/projects/2012EveryoneDies/frames/Scene23Take1/Scene23Take1.#######.tif
+ format "1920 1080 0 0 1920 1080 1 HD"
+ last 466
+ origlast 466
+ origset true
+ name Read1
+ xpos -71
+ ypos -140
+}
+ColorCorrect {
+ inputs 1+1
+ saturation 0.065
+ name ColorCorrect1
+ xpos -71
+ ypos -28
+}
+Write {
+ file /DPA/projects/2012EveryoneDies/composite-frames/Scene23/Scene23.%04d.tif
+ file_type tiff
+ datatype "16 bit"
+ checkHashOnRead false
+ name Write1
+ selected true
+ xpos -71
+ ypos 20
+}
+Viewer {
+ input_process false
+ name Viewer1
+ xpos -62
+ ypos 84
+}
