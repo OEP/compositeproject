@@ -5,37 +5,46 @@ This file provides descriptions for each scene:
   2.  Yujie rushes out of computer lab
 	-- NEEDS CORNER PINNING COMPUTER TERMINAL
   3.  Yujie runs to the downstairs lab
-  4.  Yujie inspects the creature's door
+  4.  Yujie inspects the creature's door DONE, PENDING
   5.  Yujie is relieved (creature behind her)
   6.  Yujie turns around, sees creature, and screams
   7.  Paul hears screams and runs to investigate from office
-	-- GUN COLOR CORRECTION
+	-- GUN COLOR CORRECTION -- DONE, ACCEPTED
   8.  Paul cautiously proceeds down hallway.
-	-- GUN COLOR CORRECTION
+	-- GUN COLOR CORRECTION -- DONE, PENDING
   9.  Paul discovers dead Yujie, fires at creature.
-	-- GUN COLOR CORRECTIONS
-	-- GUNSHOTS
+	-- GUN COLOR CORRECTIONS -- DONE, APPROVED
+	-- BLUR BACKGROUND -- WIP
+	-- GUNSHOTS -- DONE
+	-- PERSON DUPLICATION -- WE DECIDED NOT TO DO THIS
 ------------------------------------------
 	DANGER ZONE -- These scene numberings may not be accurate
   10. Guards sitting in break room
 	-- CORNER PINNING AVENGERS ON TV
-  11. Close-up Chris in guard room
+  11. Close-up Chris in guard room (May be not numbered correctly)
+	-- NEEDS GUN COLOR CORRECTION DONE
   12. Close-up Paul in guard room
   13. Guards leaving guard room
+	-- Change LAUGHING lab sign to something else?
   14. Guards splitting up in the hallway
 ------------------------------------------
 	DANGER ZONE -- These scene numberings may not be accurate
   15. Chris & Paul mirror reflections
+	-- PERSON DUPLICATION/MORPHING
   16. Chris & Paul front shots
+	-- PERSON DUPLICATION/MORPHING
   17. ???
   18. Chris WTF
   19. Chris reaching for gun
   20. Chris draws gun and fires
+	-- GUN COLOR CORRECTION--DONE
+	-- GUNSHOTS -- DONE
   21. Creature Chris stabs Chris
+	-- MORPHING/OBJECT ADDITION
 ------------------------------------------
   22. Elevator light shot -- DONE
   23. The guys get off the elevator
-	-- NEEDS GUN COLOR CORRECTION
+	-- NEEDS GUN COLOR CORRECTION --DONE
   24. The guys hear a noise and Sam splits up to investigate -- DONE
   25. Sam pushes the elevator call button -- DONE
   26. (Wide shot) Sam walks into elevator -- DONE
@@ -48,17 +57,18 @@ This file provides descriptions for each scene:
   31. Hu frantically runs down the hall -- DONE
   32. Hugh runs around the corner -- DONE
   33. Hugh comes from around the corner, sees Hu, asks what's wrong
-	-- NEEDS GUN COLOR CORRECTION
+	-- NEEDS GUN COLOR CORRECTION--DONE
   34. Hugh sees two Hu's.
-	-- Needs person duplication (DONE -- WAITING APPROVAL)
+	-- Needs person duplication -- DONE, APPROVED
   35. Hu begs Hugh not to shoot him
 	-- Needs person duplication
   36. Hugh decides to shoot both Hu's, shrugs, and walks off.
-	-- Needs gunshots
+	-- Needs gunshots--DONE
+	-- Gun color correction -- DONE, PENDING
   37. Both Hu's are shot by Hugh
 	-- Needs person duplication
   38. Hu gets up, chuckles, and follows Hugh.
-	-- Needs person duplication.
+	-- Needs person duplication -- DONE, PENDING (matte problems?)
 	
   
 

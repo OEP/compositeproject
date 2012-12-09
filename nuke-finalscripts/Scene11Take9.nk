@@ -2,7 +2,7 @@
 version 6.3 v4
 define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 <layout version="1.0">
-    <window x="0" y="22" w="1680" h="952" screen="0">
+    <window x="0" y="22" w="1680" h="953" screen="0">
         <splitter orientation="1">
             <split size="1062"/>
             <splitter orientation="1">
@@ -12,7 +12,7 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
                 </dock>
                 <split size="1018"/>
                 <splitter orientation="2">
-                    <split size="463"/>
+                    <split size="464"/>
                     <dock id="" activePageId="Viewer.1">
                         <page id="Viewer.1"/>
                     </dock>
@@ -35,10 +35,10 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 Root {
  inputs 0
  name /DPA/projects/2012EveryoneDies/nuke-finalscripts/Scene11Take9.nk
- frame 260
+ frame 297
  last_frame 420
  lock_range true
- format "2048 1556 0 0 2048 1556 1 2K_Super_35(full-ap)"
+ format "1920 1080 0 0 1920 1080 1 HD"
  proxy_type scale
  proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
 }
@@ -56,10 +56,55 @@ RotoPaint {
    NumOfAttributes: 11
    "vis" S 0 1 "opc" S 0 1 "mbo" S 0 1 "mb" S 0 1 "mbs" S 0 0.5 "fo" S 0 1 "fx" S 0 0 "fy" S 0 0 "ff" S 0 1 "ft" S 0 0 "pt" S 0 0 
   }
-  NumOfChildren: 47
+  NumOfChildren: 50
+  Node: {
+   NodeName: "Brush50" {
+    Flag: 576
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 295 0 S 1 295 0 S 1 295 0 S 1 295 1 S 1 295 1 S 1 295 0 S 1 295 1511.48 S 1 295 -1.87302 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 63
+     0 S 1 295 1513 S 1 295 0 S 1 295 1 0 0 S 1 295 1513 S 1 295 -1 S 1 295 1 0 0 S 1 295 1513 S 1 295 -2 S 1 295 1 0 0 S 1 295 1513 S 1 295 -4 S 1 295 1 0 0 S 1 295 1512 S 1 295 -4 S 1 295 1 0 0 S 1 295 1511 S 1 295 -4 S 1 295 1 0 0 S 1 295 1510 S 1 295 -4 S 1 295 1 0 0 S 1 295 1510 S 1 295 -2 S 1 295 1 0 0 S 1 295 1510 S 1 295 -1 S 1 295 1 0 0 S 1 295 1510 S 1 295 0 S 1 295 1 0 0 S 1 295 1510 S 1 295 1 S 1 295 1 0 0 S 1 295 1511 S 1 295 1 S 1 295 1 0 0 S 1 295 1512 S 1 295 1 S 1 295 1 0 0 S 1 295 1513 S 1 295 1 S 1 295 1 0 0 S 1 295 1513 S 1 295 0 S 1 295 1 0 0 S 1 295 1513 S 1 295 -2 S 1 295 1 0 0 S 1 295 1508 S 1 295 -5 S 1 295 1 0 0 S 1 295 1506 S 1 295 -6 S 1 295 1 0 0 S 1 295 1505 S 1 295 -6 S 1 295 1 0 0 S 1 295 1504 S 1 295 -6 S 1 295 1 0 0 S 1 295 1502 S 1 295 -6 S 1 295 1 0 0 S 1 295 1501 S 1 295 -6 S 1 295 1 0 0 S 1 295 1501 S 1 295 -5 S 1 295 1 0 0 S 1 295 1502 S 1 295 -5 S 1 295 1 0 0 S 1 295 1504 S 1 295 -4 S 1 295 1 0 0 S 1 295 1505 S 1 295 -2 S 1 295 1 0 0 S 1 295 1508 S 1 295 -1 S 1 295 1 0 0 S 1 295 1510 S 1 295 -1 S 1 295 1 0 0 S 1 295 1511 S 1 295 -1 S 1 295 1 0 0 S 1 295 1512 S 1 295 -1 S 1 295 1 0 0 S 1 295 1513 S 1 295 -1 S 1 295 1 0 0 S 1 295 1513 S 1 295 -2 S 1 295 1 0 0 S 1 295 1514 S 1 295 -4 S 1 295 1 0 0 S 1 295 1514 S 1 295 -5 S 1 295 1 0 0 S 1 295 1513 S 1 295 -6 S 1 295 1 0 0 S 1 295 1512 S 1 295 -6 S 1 295 1 0 0 S 1 295 1511 S 1 295 -6 S 1 295 1 0 0 S 1 295 1511 S 1 295 -5 S 1 295 1 0 0 S 1 295 1511 S 1 295 -4 S 1 295 1 0 0 S 1 295 1512 S 1 295 -1 S 1 295 1 0 0 S 1 295 1513 S 1 295 -1 S 1 295 1 0 0 S 1 295 1514 S 1 295 1 S 1 295 1 0 0 S 1 295 1514 S 1 295 2 S 1 295 1 0 0 S 1 295 1517 S 1 295 2 S 1 295 1 0 0 S 1 295 1518 S 1 295 2 S 1 295 1 0 0 S 1 295 1518 S 1 295 1 S 1 295 1 0 0 S 1 295 1519 S 1 295 0 S 1 295 1 0 0 S 1 295 1519 S 1 295 -1 S 1 295 1 0 0 S 1 295 1519 S 1 295 -2 S 1 295 1 0 0 S 1 295 1518 S 1 295 -2 S 1 295 1 0 0 S 1 295 1517 S 1 295 -2 S 1 295 1 0 0 S 1 295 1516 S 1 295 -2 S 1 295 1 0 0 S 1 295 1513 S 1 295 -2 S 1 295 1 0 0 S 1 295 1512 S 1 295 -2 S 1 295 1 0 0 S 1 295 1510 S 1 295 -2 S 1 295 1 0 0 S 1 295 1510 S 1 295 -1 S 1 295 1 0 0 S 1 295 1510 S 1 295 0 S 1 295 1 0 0 S 1 295 1510 S 1 295 1 S 1 295 1 0 0 S 1 295 1511 S 1 295 1 S 1 295 1 0 0 S 1 295 1512 S 1 295 1 S 1 295 1 0 0 S 1 295 1513 S 1 295 1 S 1 295 1 0 0 S 1 295 1514 S 1 295 1 S 1 295 1 0 0 S 1 295 1516 S 1 295 1 S 1 295 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 0 "spy" S 0 0 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 295 "ltm" S 0 295 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush49" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 294 0 S 1 294 0 S 1 294 0 S 1 294 1 S 1 294 1 S 1 294 0 S 1 294 1522.32 S 1 294 5.82353 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 34
+     0 S 1 294 1520 S 1 294 5 S 1 294 1 0 0 S 1 294 1520 S 1 294 6 S 1 294 1 0 0 S 1 294 1520 S 1 294 7 S 1 294 1 0 0 S 1 294 1520 S 1 294 8 S 1 294 1 0 0 S 1 294 1520 S 1 294 10 S 1 294 1 0 0 S 1 294 1520 S 1 294 11 S 1 294 1 0 0 S 1 294 1522 S 1 294 11 S 1 294 1 0 0 S 1 294 1523 S 1 294 11 S 1 294 1 0 0 S 1 294 1524 S 1 294 11 S 1 294 1 0 0 S 1 294 1525 S 1 294 11 S 1 294 1 0 0 S 1 294 1525 S 1 294 10 S 1 294 1 0 0 S 1 294 1525 S 1 294 8 S 1 294 1 0 0 S 1 294 1525 S 1 294 7 S 1 294 1 0 0 S 1 294 1523 S 1 294 2 S 1 294 1 0 0 S 1 294 1523 S 1 294 1 S 1 294 1 0 0 S 1 294 1519 S 1 294 0 S 1 294 1 0 0 S 1 294 1519 S 1 294 -1 S 1 294 1 0 0 S 1 294 1518 S 1 294 -1 S 1 294 1 0 0 S 1 294 1518 S 1 294 0 S 1 294 1 0 0 S 1 294 1518 S 1 294 2 S 1 294 1 0 0 S 1 294 1518 S 1 294 5 S 1 294 1 0 0 S 1 294 1519 S 1 294 7 S 1 294 1 0 0 S 1 294 1520 S 1 294 8 S 1 294 1 0 0 S 1 294 1522 S 1 294 10 S 1 294 1 0 0 S 1 294 1523 S 1 294 10 S 1 294 1 0 0 S 1 294 1525 S 1 294 10 S 1 294 1 0 0 S 1 294 1526 S 1 294 8 S 1 294 1 0 0 S 1 294 1526 S 1 294 7 S 1 294 1 0 0 S 1 294 1526 S 1 294 6 S 1 294 1 0 0 S 1 294 1526 S 1 294 5 S 1 294 1 0 0 S 1 294 1526 S 1 294 2 S 1 294 1 0 0 S 1 294 1526 S 1 294 1 S 1 294 1 0 0 S 1 294 1525 S 1 294 0 S 1 294 1 0 0 S 1 294 1524 S 1 294 0 S 1 294 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 0 "spy" S 0 0 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 294 "ltm" S 0 294 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
+  Node: {
+   NodeName: "Brush48" {
+    Flag: 512
+    NodeType: 5
+    CubicCurve: "" {
+     Transform: 0 0 S 1 293 0 S 1 293 0 S 1 293 0 S 1 293 1 S 1 293 1 S 1 293 0 S 1 293 1529.15 S 1 293 6.21951 
+     Type: 3 Flag: 2080 Dim: 3
+     NumOfPoints: 41
+     0 S 1 293 1530 S 1 293 8 S 1 293 1 0 0 S 1 293 1528 S 1 293 8 S 1 293 1 0 0 S 1 293 1526 S 1 293 8 S 1 293 1 0 0 S 1 293 1526 S 1 293 10 S 1 293 1 0 0 S 1 293 1526 S 1 293 11 S 1 293 1 0 0 S 1 293 1526 S 1 293 12 S 1 293 1 0 0 S 1 293 1528 S 1 293 13 S 1 293 1 0 0 S 1 293 1529 S 1 293 13 S 1 293 1 0 0 S 1 293 1529 S 1 293 14 S 1 293 1 0 0 S 1 293 1530 S 1 293 14 S 1 293 1 0 0 S 1 293 1530 S 1 293 13 S 1 293 1 0 0 S 1 293 1530 S 1 293 12 S 1 293 1 0 0 S 1 293 1530 S 1 293 11 S 1 293 1 0 0 S 1 293 1530 S 1 293 8 S 1 293 1 0 0 S 1 293 1530 S 1 293 7 S 1 293 1 0 0 S 1 293 1530 S 1 293 6 S 1 293 1 0 0 S 1 293 1529 S 1 293 6 S 1 293 1 0 0 S 1 293 1528 S 1 293 5 S 1 293 1 0 0 S 1 293 1526 S 1 293 5 S 1 293 1 0 0 S 1 293 1526 S 1 293 6 S 1 293 1 0 0 S 1 293 1526 S 1 293 8 S 1 293 1 0 0 S 1 293 1526 S 1 293 11 S 1 293 1 0 0 S 1 293 1526 S 1 293 13 S 1 293 1 0 0 S 1 293 1528 S 1 293 13 S 1 293 1 0 0 S 1 293 1530 S 1 293 8 S 1 293 1 0 0 S 1 293 1531 S 1 293 6 S 1 293 1 0 0 S 1 293 1534 S 1 293 4 S 1 293 1 0 0 S 1 293 1534 S 1 293 1 S 1 293 1 0 0 S 1 293 1534 S 1 293 0 S 1 293 1 0 0 S 1 293 1534 S 1 293 -1 S 1 293 1 0 0 S 1 293 1534 S 1 293 -2 S 1 293 1 0 0 S 1 293 1532 S 1 293 -2 S 1 293 1 0 0 S 1 293 1531 S 1 293 -2 S 1 293 1 0 0 S 1 293 1530 S 1 293 -2 S 1 293 1 0 0 S 1 293 1530 S 1 293 -1 S 1 293 1 0 0 S 1 293 1528 S 1 293 -1 S 1 293 1 0 0 S 1 293 1528 S 1 293 0 S 1 293 1 0 0 S 1 293 1528 S 1 293 1 S 1 293 1 0 0 S 1 293 1528 S 1 293 2 S 1 293 1 0 0 S 1 293 1528 S 1 293 4 S 1 293 1 0 0 S 1 293 1528 S 1 293 5 S 1 293 1 0 
+     NumOfAttributes: 46
+     "vis" S 0 1 "r" S 0 1 "g" S 0 1 "b" S 0 1 "a" S 0 1 "ro" S 0 1 "go" S 0 1 "bo" S 0 1 "ao" S 0 1 "opc" S 0 1 "bs" S 0 25 "bsp" S 0 0.05 "h" S 0 0.2 "bm" S 0 0 "dt" S 0 1 "ds" S 0 0 "dh" S 0 0 "bt" S 0 0 "bu" S 0 1 "inv" S 0 0 "src" S 0 0 "stx" S 0 0 "sty" S 0 0 "str" S 0 0 "sr" S 0 0 "ssx" S 0 1 "ssy" S 0 1 "ss" S 0 0 "spx" S 0 0 "spy" S 0 0 "stot" S 0 0 "sto" S 0 0 "sv" S 0 0 "sf" S 0 1 "sb" S 0 1 "ltn" S 0 293 "ltm" S 0 293 "ltt" S 0 2 "ws" S 0 0 "we" S 0 1 "ep1" S 0 0 "ep2" S 0 0 "ep3" S 0 0 "tt" S 0 14 "nv" S 0 1 "view1" S 0 1 
+    }
+   }
+   NumOfChildren: 0
+  }
   Node: {
    NodeName: "Brush47" {
-    Flag: 576
+    Flag: 512
     NodeType: 5
     CubicCurve: "" {
      Transform: 0 0 S 1 289 0 S 1 289 0 S 1 289 0 S 1 289 1 S 1 289 1 S 1 289 0 S 1 289 1464.96 S 1 289 18.7308 
@@ -771,7 +816,7 @@ RotoPaint {
   { createBSpline ssx 1 ssy 1 sf 1 sb 1 }
   { createEllipse ssx 1 ssy 1 sf 1 sb 1 }
   { createRectangle ssx 1 ssy 1 sf 1 sb 1 }
-  { brush ssx 1 ssy 1 sf 1 sb 1 ltn 289 ltm 289 tt 14 }
+  { brush ssx 1 ssy 1 sf 1 sb 1 ltn 295 ltm 295 tt 14 }
   { eraser src 2 ssx 1 ssy 1 sf 1 sb 1 }
   { clone src 1 ssx 1 ssy 1 sf 1 sb 1 }
   { reveal src 3 ssx 1 ssy 1 sf 1 sb 1 }
@@ -782,16 +827,18 @@ RotoPaint {
   { smear src 1 ssx 1 ssy 1 sf 1 sb 1 }
 } }
  toolbar_brush_hardness 0.200000003
+ toolbar_lifetime_start 289
+ toolbar_lifetime_end 289
  toolbar_source_transform_scale {1 1}
- toolbar_source_transform_center {1024 778}
- lifetime_start 289
- lifetime_end 289
+ lifetime_start 295
+ lifetime_end 295
  motionblur_on true
  brush_spacing 0.05000000075
  brush_hardness 0.200000003
  source_black_outside true
  createNewTrack {{-1} "-1\t(none)\t-1" "1000\tNew Track Layer\t1000"}
  name RotoPaint1
+ selected true
  xpos -41
  ypos -53
 }
@@ -810,20 +857,22 @@ ColorCorrect {
  inputs 1+1
  saturation 0
  name ColorCorrect1
- selected true
  xpos -225
  ypos -53
 }
 Write {
- file /DPA/projects/2012EveryoneDies/composite-frames/Scene11Take9
+ file /DPA/projects/2012EveryoneDies/composite-frames/Scene11Take9/Scene11Take9.%04d.tif
+ file_type tiff
+ datatype "16 bit"
+ checkHashOnRead false
  name Write1
  xpos -225
  ypos 32
 }
 Viewer {
- frame 260
+ frame 297
  input_process false
  name Viewer1
- xpos -240
- ypos 68
+ xpos -225
+ ypos 106
 }
